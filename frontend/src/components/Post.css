@@ -1,0 +1,167 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal-content p {
+  margin-bottom: 10px;
+}
+
+.modal-content button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button:last-child {
+  margin-right: 0;
+}
+
+/* POST */ 
+
+.post-detail {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.post-title {
+  text-align: center;
+  color: #48087c;
+}
+
+.timestamp {
+  text-align: center;
+  font-size: 17px;
+  color: grey;
+}
+
+.edit-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.comments {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 70%;
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+.comment {
+  background-color: #fae6e7;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+.cmnt-title {
+  font-size: 24px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.comments h3 {
+  color:#48087c;
+}
+
+.comment-btn {
+  border-radius: 5px;
+  height: 32px;
+}
+
+.comment-user {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.comment-user h3 {
+  margin: 10px 0;
+}
+
+.post-description {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+.comment-input-container {
+  display: flex;
+  flex-direction: column;
+}
+.comment-input-container label {
+  font-style: oblique;
+  margin-left: 10px;
+}
+.comment-input-container textarea {
+  resize: none;
+  height: 70px;
+  padding: 8px;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.cmnt-button-container {
+  display: flex;
+  justify-content: right;
+}
+
+.cmnt-send {
+  padding: 5px 10px;
+  background-color: #48087c;
+  border: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.edit-post {
+  width: 45%;
+}
+
+.form-edit-post-input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.edit-post legend {
+  font-weight: 700;
+  text-align: center;
+}
+
+.form-edit-post-input textarea {
+  resize: none;
+  height: 125px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-edit-post-input input {
+  height: 30px;
+  padding-left: 10px;
+}

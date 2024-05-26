@@ -1,0 +1,198 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.lightgrey {
+  color: grey;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  background-color: #B185A7;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.links a {
+  color: #48087c;
+}
+
+.logo{
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.logo a{
+  color: rgb(91, 39, 123);
+}
+
+.link {
+  padding: 0 10px;
+}
+
+#content {
+  margin-top: 70px;
+}
+
+/* Posts */
+
+.title {
+  text-align: center;
+}
+
+.see-more{
+  text-decoration: none;
+  color: #48087c;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.posts-post {
+  border: 1px solid #B185A7;
+  padding: 10px;
+  height: 300px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+}
+
+.posts-post a{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.posts-post h1{
+  padding: 0;
+  margin: 0;
+  color: #48087c;
+}
+
+.postsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 10px;
+}
+
+.by {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.timeStamp {
+  color: #5e5e5e;
+}
+
+/* form */
+
+.login-container, .register-container {
+  margin: 0 auto;
+  width: 30%;
+  padding: 20px;
+  border: 1px solid;
+  border: none; 
+  border-radius: 5px;
+  background-color: #fee8f9;
+}
+
+.register-container {
+  width: 40%;
+}
+
+.form-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #B185A7;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 5px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.email, .username {
+  width: 100%;
+}
+
+.double-input {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.input-container label {
+  font-size: 18px;
+  color: #48087c;
+}
+
+.input-container input {
+  padding: 7px 10px;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  padding: 8px 30px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background-color: #B185A7;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.edit-button {
+  background-color: rgb(166, 69, 166);
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.form-edit-post-checkbox {
+  margin-bottom: 20px;
+}
+
+.createpost-container label {
+  text-align: left;
+}
